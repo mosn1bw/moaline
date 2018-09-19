@@ -66,11 +66,11 @@ app = Flask(__name__)
 
 # Channel Access Token
 
-line_bot_api = LineBotApi('dAA1AZl+mAy4PwIo+dMtddNuqM6PFYmDvm4bbCBATZDuo3RmQc6cUGLHhoQp9jCMFEs5J/vbvpmUXiU3nu2PpSb4RrodFgaK4seKGgP+R1gDuyE/Bhcc9nUeHEXcIj0zywH1dElgzQrd4/O4DX2f+QdB04t89/1O/w1cDnyilFU=')
+line_bot_api = LineBotApi('mVBiJ+I7W4X9IbfxaAEai62BYY5Mfl7R/AKgpN0DVGrIqXFVHrksQCetTVwegNUPOxDYldg1cyc+rWtjU+34p+fDxEN6dFiW/gq6OSGj+6vOe0YkjtWvzMl2kEILyUCAKFbTx8vyENdoXN13DFJM6AdB04t89/1O/w1cDnyilFU=')
 
 # Channel Secret
 
-handler = WebhookHandler('e64f7eb2e5cd36493c8a2ac5e3dd28b6')
+handler = WebhookHandler('a606f2ca66d60af4f08830d8bee13b6c')
 
 #===========[ NOTE SAVER ]=======================
 
@@ -520,7 +520,7 @@ def handle_message(event):
 
                                 label='>ƴudha<',
 
-                                uri='https://line.me/ti/p/%40has6814j'
+                                uri='https://line.me/ti/p/7a1gUXPlH7'
 
                             )
 
@@ -540,7 +540,7 @@ def handle_message(event):
 
                                 label='>ƴudha<',
 
-                                uri='https://line.me/ti/p/%40ikj9968f'
+                                uri='https://line.me/ti/p/7a1gUXPlH7'
 
                             )
 
@@ -630,7 +630,7 @@ def handle_message(event):
 
                 URIImagemapAction(
 
-                    link_uri='https://line.me/ti/p/%40has6814j',
+                    link_uri='https://line.me/ti/p/7a1gUXPlH7',
 
                     area=ImagemapArea(
 
@@ -960,7 +960,7 @@ def handle_message(event):
 
                         image_url='https://stickershop.line-scdn.net/stickershop/v1/sticker/51626500/IOS/sticker_animation@2x.png',
 
-                        action=URIAction(uri='http://line.me/ti/p/%40has6814j')
+                        action=URIAction(uri='http://line.me/ti/p/7a1gUXPlH7')
 
                     )
 
