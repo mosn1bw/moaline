@@ -164,13 +164,13 @@ def handle_message(event):
 
 
 
-    if text == '#yudbye':
+    if text == '#bye':
 
         if isinstance(event.source, SourceGroup):
 
             line_bot_api.reply_message(
 
-                event.reply_token, TextSendMessage(text='Yudha pergi bye-bye'))
+                event.reply_token, TextSendMessage(text='mosen pergi bye-bye'))
 
             line_bot_api.leave_group(event.source.group_id)
 
@@ -178,7 +178,7 @@ def handle_message(event):
 
             line_bot_api.reply_message(
 
-                event.reply_token, TextSendMessage(text='Yudha pergi bye-bye'))
+                event.reply_token, TextSendMessage(text='mosen pergi bye-bye'))
 
             line_bot_api.leave_room(event.source.room_id)
 
@@ -274,7 +274,7 @@ def handle_message(event):
 
         line_bot_api.reply_message(event.reply_token, message)
 
-    elif (text == 'Yudha') or (text == 'Yud') or (text == 'yud') or (text == 'yudha'):
+    elif (text == 'mosen') or (text == 'mbw') or (text == 'yud') or (text == 'mosen'):
 
         message = TextSendMessage(text='Apa manggil-manggil cogan')
 
@@ -320,7 +320,7 @@ def handle_message(event):
 
                         label='Cek idline',
 
-                        text='/idline: yud.xx'
+                        text='/idline: masih.00'
 
                     ),
 
@@ -368,7 +368,7 @@ def handle_message(event):
 
                         label='List bot',
 
-                        text='/bots yud'
+                        text='/bots mbw'
 
                     ),
 
@@ -384,7 +384,7 @@ def handle_message(event):
 
                         label='Bot bye',
 
-                        text='#yudbye'
+                        text='#bye'
 
                     )
 
@@ -400,7 +400,7 @@ def handle_message(event):
 
 #=====[ CAROUSEL MESSAGE ]==========[ ARSYBAI ]======================
 
-    elif text == '/bots yud':
+    elif text == '/bot mbw':
 
         message = TemplateSendMessage(
 
@@ -414,7 +414,7 @@ def handle_message(event):
 
                         title='Bots v1',
 
-                        text='yudha public bot v1',
+                        text='m.bw public bot v1',
 
                         actions=[
 
@@ -422,7 +422,7 @@ def handle_message(event):
 
                                 label='>mosen bot<',
 
-                                uri='https://line.me/ti/p/~yudpublicbotv1'
+                                uri='https://line.me/ti/p/~masih.00'
 
                             )
 
@@ -434,7 +434,7 @@ def handle_message(event):
 
                         title='Bots v2',
 
-                        text='yudha public bot v2',
+                        text='mosen public bot v2',
 
                         actions=[
 
@@ -442,7 +442,7 @@ def handle_message(event):
 
                                 label='>mosen bot<',
 
-                                uri='https://line.me/ti/p/~yudpublicbotv2'
+                                uri='https://line.me/ti/p/~masih.00'
 
                             )
 
@@ -454,7 +454,7 @@ def handle_message(event):
 
                         title='Bots official',
 
-                        text='Yudha public bot official',
+                        text='mosen public bot official',
 
                         actions=[
 
@@ -462,7 +462,7 @@ def handle_message(event):
 
                                 label='>mosen bot<',
 
-                                uri='https://line.me/ti/p/%40ndw0429j'
+                                uri='https://line.me/ti/p/~masih.00'
 
                             )
 
@@ -500,7 +500,7 @@ def handle_message(event):
 
                                 label='>mosen<',
 
-                                uri='https://line.me/ti/p/~yud.xx'
+                                uri='https://line.me/ti/p/~masih.00'
 
                             )
 
@@ -520,7 +520,7 @@ def handle_message(event):
 
                                 label='>mosen<',
 
-                                uri='https://line.me/ti/p/7a1gUXPlH7'
+                                uri='https://line.me/ti/p/~masih.00'
 
                             )
 
@@ -540,7 +540,7 @@ def handle_message(event):
 
                                 label='>mosen<',
 
-                                uri='https://line.me/ti/p/7a1gUXPlH7'
+                                uri='https://line.me/ti/p/~masih.00'
 
                             )
 
