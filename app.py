@@ -420,7 +420,7 @@ def handle_message(event):
 
                             URITemplateAction(
 
-                                label='>ƴudha bot<',
+                                label='>mosen bot<',
 
                                 uri='https://line.me/ti/p/~yudpublicbotv1'
 
@@ -440,7 +440,7 @@ def handle_message(event):
 
                             URITemplateAction(
 
-                                label='>ƴudha bot<',
+                                label='>mosen bot<',
 
                                 uri='https://line.me/ti/p/~yudpublicbotv2'
 
@@ -460,7 +460,7 @@ def handle_message(event):
 
                             URITemplateAction(
 
-                                label='>ƴudha bot<',
+                                label='>mosen bot<',
 
                                 uri='https://line.me/ti/p/%40ndw0429j'
 
@@ -498,7 +498,7 @@ def handle_message(event):
 
                             URITemplateAction(
 
-                                label='>ƴudha<',
+                                label='>mosen<',
 
                                 uri='https://line.me/ti/p/~yud.xx'
 
@@ -518,7 +518,7 @@ def handle_message(event):
 
                             URITemplateAction(
 
-                                label='>ƴudha<',
+                                label='>mosen<',
 
                                 uri='https://line.me/ti/p/7a1gUXPlH7'
 
@@ -538,7 +538,7 @@ def handle_message(event):
 
                             URITemplateAction(
 
-                                label='>ƴudha<',
+                                label='>mosen<',
 
                                 uri='https://line.me/ti/p/7a1gUXPlH7'
 
@@ -664,7 +664,7 @@ def handle_message(event):
 
         message = TemplateSendMessage(
 
-            alt_text='Yudha public bot',
+            alt_text='mosen public bot',
 
             template=ImageCarouselTemplate(
 
@@ -716,7 +716,7 @@ def handle_message(event):
 
         message = TemplateSendMessage(
 
-            alt_text='Yudha public bot',
+            alt_text='mosen public bot',
 
             template=ImageCarouselTemplate(
 
@@ -742,7 +742,7 @@ def handle_message(event):
 
         message = TemplateSendMessage(
 
-            alt_text='Yudha public bot',
+            alt_text='mosen public bot',
 
             template=ImageCarouselTemplate(
 
@@ -768,7 +768,7 @@ def handle_message(event):
 
         message = TemplateSendMessage(
 
-            alt_text='Yudha public bot',
+            alt_text='mosen public bot',
 
             template=ImageCarouselTemplate(
 
@@ -794,7 +794,7 @@ def handle_message(event):
 
         message = TemplateSendMessage(
 
-            alt_text='Yudha public bot',
+            alt_text='mosen public bot',
 
             template=ImageCarouselTemplate(
 
@@ -820,7 +820,7 @@ def handle_message(event):
 
         message = TemplateSendMessage(
 
-            alt_text='Yudha public bot',
+            alt_text='mosen public bot',
 
             template=ImageCarouselTemplate(
 
@@ -846,7 +846,7 @@ def handle_message(event):
 
         message = TemplateSendMessage(
 
-            alt_text='Yudha public bot',
+            alt_text='mosen public bot',
 
             template=ImageCarouselTemplate(
 
@@ -856,7 +856,7 @@ def handle_message(event):
 
                         image_url='https://stickershop.line-scdn.net/stickershop/v1/sticker/52002763/IOS/sticker_animation@2x.png',
 
-                        action=URIAction(uri='http://line.me/ti/p/%40has6814j')
+                        action=URIAction(uri='http://line.me/ti/p/7a1gUXPlH7')
 
                     )
 
@@ -872,7 +872,7 @@ def handle_message(event):
 
         message = TemplateSendMessage(
 
-            alt_text='Yudha public bot',
+            alt_text='mosen public bot',
 
             template=ImageCarouselTemplate(
 
@@ -882,7 +882,7 @@ def handle_message(event):
 
                         image_url='https://stickershop.line-scdn.net/stickershop/v1/sticker/51626520/IOS/sticker_animation@2x.png',
 
-                        action=URIAction(uri='http://line.me/ti/p/%40has6814j')
+                        action=URIAction(uri='http://line.me/ti/p/7a1gUXPlH7')
 
                     )
 
@@ -898,7 +898,7 @@ def handle_message(event):
 
         message = TemplateSendMessage(
 
-            alt_text='Yudha public bot',
+            alt_text='mosen public bot',
 
             template=ImageCarouselTemplate(
 
@@ -908,7 +908,7 @@ def handle_message(event):
 
                         image_url='https://stickershop.line-scdn.net/stickershop/v1/sticker/34751035/IOS/sticker_animation@2x.png',
 
-                        action=URIAction(uri='http://line.me/ti/p/%40has6814j')
+                        action=URIAction(uri='http://line.me/ti/p/7a1gUXPlH7')
 
                     )
 
@@ -924,7 +924,7 @@ def handle_message(event):
 
         message = TemplateSendMessage(
 
-            alt_text='Yudha public bot',
+            alt_text='mosen public bot',
 
             template=ImageCarouselTemplate(
 
@@ -934,7 +934,7 @@ def handle_message(event):
 
                         image_url='https://stickershop.line-scdn.net/stickershop/v1/sticker/51626499/IOS/sticker_animation@2x.png',
 
-                        action=URIAction(uri='http://line.me/ti/p/%40has6814j')
+                        action=URIAction(uri='http://line.me/ti/p/7a1gUXPlH7')
 
                     )
 
@@ -950,7 +950,7 @@ def handle_message(event):
 
         message = TemplateSendMessage(
 
-            alt_text='Yudha public bot',
+            alt_text='mosen public bot',
 
             template=ImageCarouselTemplate(
 
