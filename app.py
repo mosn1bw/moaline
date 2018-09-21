@@ -616,7 +616,7 @@ def handle_message(event):
 
 #=====[ FLEX MESSAGE ]==========[ ARSYBAI ]======================
 
-    elif text == 'yud test':
+    elif text == 'mosen test':
 
         message = ImagemapSendMessage(
 
@@ -630,7 +630,7 @@ def handle_message(event):
 
                 URIImagemapAction(
 
-                    link_uri='https://line.me/ti/p/7a1gUXPlH7',
+                    link_uri='https://line.me/ti/p/~masih.00'
 
                     area=ImagemapArea(
 
@@ -674,7 +674,7 @@ def handle_message(event):
 
                         image_url='https://stickershop.line-scdn.net/stickershop/v1/sticker/153453/IOS/sticker.png',
 
-                        action=URIAction(uri='http://line.me/ti/p/%40has6814j')
+                        action=URIAction(uri='https://line.me/ti/p/~masih.00')
 
                     )
 
@@ -700,7 +700,7 @@ def handle_message(event):
 
                         image_url='https://stickershop.line-scdn.net/stickershop/v1/sticker/13162615/IOS/sticker.png',
 
-                        action=URIAction(uri='http://line.me/ti/p/%40has6814j')
+                        action=URIAction(uri='https://line.me/ti/p/~masih.00')
 
                     )
 
@@ -726,7 +726,7 @@ def handle_message(event):
 
                         image_url='https://stickershop.line-scdn.net/stickershop/v1/sticker/8683557/IOS/sticker_animation@2x.png',
 
-                        action=URIAction(uri='http://line.me/ti/p/%40has6814j')
+                        action=URIAction(uri='https://line.me/ti/p/~masih.00')
 
                     )
 
@@ -752,7 +752,7 @@ def handle_message(event):
 
                         image_url='https://stickershop.line-scdn.net/stickershop/v1/sticker/8683546/IOS/sticker_animation@2x.png',
 
-                        action=URIAction(uri='http://line.me/ti/p/%40has6814j')
+                        action=URIAction(uri='https://line.me/ti/p/~masih.00')
 
                     )
 
@@ -778,7 +778,7 @@ def handle_message(event):
 
                         image_url='https://stickershop.line-scdn.net/stickershop/v1/sticker/52002738/IOS/sticker_animation@2x.png',
 
-                        action=URIAction(uri='http://line.me/ti/p/%40has6814j')
+                        action=URIAction(uri='https://line.me/ti/p/~masih.00')
 
                     )
 
@@ -804,7 +804,7 @@ def handle_message(event):
 
                         image_url='https://stickershop.line-scdn.net/stickershop/v1/sticker/22499899/IOS/sticker_animation@2x.png',
 
-                        action=URIAction(uri='http://line.me/ti/p/%40has6814j')
+                        action=URIAction(uri='https://line.me/ti/p/~masih.00')
 
                     )
 
@@ -830,7 +830,7 @@ def handle_message(event):
 
                         image_url='https://stickershop.line-scdn.net/stickershop/v1/sticker/27695296/IOS/sticker_animation@2x.png',
 
-                        action=URIAction(uri='http://line.me/ti/p/%40has6814j')
+                        action=URIAction(uri='https://line.me/ti/p/~masih.00')
 
                     )
 
