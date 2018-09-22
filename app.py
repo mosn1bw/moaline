@@ -685,6 +685,16 @@ def handle_message(event):
         )
 
         line_bot_api.reply_message(event.reply_token, message)
+        
+        {
+
+  "type": "m1",
+
+  "packageId": "1",
+
+  "stickerId": "1"
+
+}
 
     elif (text == 'nyimak') or (text == 'Nyimak'):
 
