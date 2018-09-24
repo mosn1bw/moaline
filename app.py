@@ -397,7 +397,29 @@ def handle_message(event):
         
 
         line_bot_api.reply_message(event.reply_token, buttons_template)
-
+        
+#=====[ Buttons Template Message ]==========[ ARSYBAI ]================
+{
+  "type": "template",
+  "altText": "this is a buttons template",
+  "template": {
+    "type": "buttons",
+    "actions": [
+      {
+        "type": "message",
+        "label": "mosen.bw",
+        "text": "Action 1"
+      },
+      {
+        "type": "message",
+        "label": "Action 2",
+        "text": "Action 2"
+      }
+    ],
+    "thumbnailImageUrl": "http://s9.picofile.com/file/8338097892/1537765217737.png",
+    "title": "Title",
+    "text": "◈͜͜͡͡დბͥᶔͣᶓͫᾓ͜͜͡͡◈"
+  }
 #=====[ CAROUSEL MESSAGE ]==========[ ARSYBAI ]======================
 
     elif text == '/bot mbw':
@@ -616,7 +638,7 @@ def handle_message(event):
 
 #=====[ FLEX MESSAGE ]==========[ ARSYBAI ]======================
 
-    elif text == 'mosen test':
+    elif text == 'yud test':
 
         message = ImagemapSendMessage(
 
@@ -630,7 +652,7 @@ def handle_message(event):
 
                 URIImagemapAction(
 
-                    link_uri='https://line.me/ti/p/~masih.00'
+                    link_uri='https://line.me/ti/p/%40has6814j',
 
                     area=ImagemapArea(
 
@@ -658,7 +680,13 @@ def handle_message(event):
 
         line_bot_api.reply_message(event.reply_token, message)
 
+
 #=====[ Sticker MESSAGE ]==========[ ARSYBAI ]======================
+  {
+  "type": "007",
+  "packageId": "1",
+  "stickerId": "2560"
+}
 
     elif (text == 'makasih') or (text == 'Makasih'):
 
@@ -685,16 +713,6 @@ def handle_message(event):
         )
 
         line_bot_api.reply_message(event.reply_token, message)
-        
-        {
-
-  "type": "m1",
-
-  "packageId": "1",
-
-  "stickerId": "1"
-
-}
 
     elif (text == 'nyimak') or (text == 'Nyimak'):
 
