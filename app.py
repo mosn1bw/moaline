@@ -397,29 +397,7 @@ def handle_message(event):
         
 
         line_bot_api.reply_message(event.reply_token, buttons_template)
-        
-#=====[ Buttons Template Message ]==========[ ARSYBAI ]================
-{
-  "type": "template",
-  "altText": "this is a buttons template",
-  "template": {
-    "type": "buttons",
-    "actions": [
-      {
-        "type": "message",
-        "label": "mosen.bw",
-        "text": "Action 1"
-      },
-      {
-        "type": "message",
-        "label": "Action 2",
-        "text": "Action 2"
-      }
-    ],
-    "thumbnailImageUrl": "http://s9.picofile.com/file/8338097892/1537765217737.png",
-    "title": "Title",
-    "text": "◈͜͜͡͡დბͥᶔͣᶓͫᾓ͜͜͡͡◈"
-  }
+
 #=====[ CAROUSEL MESSAGE ]==========[ ARSYBAI ]======================
 
     elif text == '/bot mbw':
@@ -682,11 +660,6 @@ def handle_message(event):
 
 
 #=====[ Sticker MESSAGE ]==========[ ARSYBAI ]======================
-  {
-  "type": "007",
-  "packageId": "1",
-  "stickerId": "2560"
-}
 
     elif (text == 'makasih') or (text == 'Makasih'):
 
