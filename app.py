@@ -66,11 +66,11 @@ app = Flask(__name__)
 
 # Channel Access Token
 
-line_bot_api = LineBotApi('mVBiJ+I7W4X9IbfxaAEai62BYY5Mfl7R/AKgpN0DVGrIqXFVHrksQCetTVwegNUPOxDYldg1cyc+rWtjU+34p+fDxEN6dFiW/gq6OSGj+6vOe0YkjtWvzMl2kEILyUCAKFbTx8vyENdoXN13DFJM6AdB04t89/1O/w1cDnyilFU=')
+line_bot_api = LineBotApi('FCci126AI7N9nj1gabBLl6HKTmvHXeM08gdqIAy+D0ADbuhbZwoPg/13H7DJcLWXOxDYldg1cyc+rWtjU+34p+fDxEN6dFiW/gq6OSGj+6sM228xGHR/IyP0DhuUxoSl9RSL99Qt1Bc2Um8YVkf4xgdB04t89/1O/w1cDnyilFU=')
 
 # Channel Secret
 
-handler = WebhookHandler('a606f2ca66d60af4f08830d8bee13b6c')
+handler = WebhookHandler('0f3cde4cd3691acd977fc5d615edd134')
 
 #===========[ NOTE SAVER ]=======================
 
@@ -293,6 +293,24 @@ def handle_message(event):
         line_bot_api.reply_message(event.reply_token, message)
 
 #=====[ TEMPLATE MESSAGE ]=============[ ARSYBAI ]======================
+
+{
+  "type": "template",
+  "altText": "this is a buttons template",
+  "template": {
+    "type": "buttons",
+    "actions": [
+      {
+        "type": "message",
+        "label": "Action 1",
+        "text": "Action 1"
+      }
+    ],
+    "thumbnailImageUrl": "http://s9.picofile.com/file/8339216692/1534026862752.jpg",
+    "title": "mosen",
+    "text": "bot"
+  }
+}
 
     elif text == '/tools':
 
