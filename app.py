@@ -224,7 +224,7 @@ def handle_message(event):
 
     elif text == 'confirm':
 
-        confirm_template = ConfirmTemplate(text='Bot nya bagus?', actions=[
+        confirm_template = ConfirmTemplate(text='Bot ok?', actions=[
 
             MessageTemplateAction(label='Yes', text='Yes!'),
 
@@ -276,7 +276,7 @@ def handle_message(event):
 
     elif (text == 'mosen') or (text == 'mbw') or (text == 'yud') or (text == 'mosen'):
 
-        message = TextSendMessage(text='Apa manggil-manggil cogan')
+        message = TextSendMessage(text='joone mosen')
 
         line_bot_api.reply_message(event.reply_token, message)
 
@@ -312,6 +312,9 @@ def handle_message(event):
   }
 }
 
+
+#=====[ TEMPLATE MESSAGE ]=============[ ARSYBAI ]======================
+
     elif text == '/tools':
 
         buttons_template = TemplateSendMessage(
@@ -336,7 +339,7 @@ def handle_message(event):
 
                     MessageTemplateAction(
 
-                        label='Cek idline',
+                        label='clik idline',
 
                         text='/idline: masih.00'
 
@@ -386,7 +389,7 @@ def handle_message(event):
 
                         label='List bot',
 
-                        text='/bots mbw'
+                        text='/bots m'
 
                     ),
 
@@ -402,7 +405,7 @@ def handle_message(event):
 
                         label='Bot bye',
 
-                        text='#bye'
+                        text='#mosen'
 
                     )
 
@@ -634,11 +637,11 @@ def handle_message(event):
 
 #=====[ FLEX MESSAGE ]==========[ ARSYBAI ]======================
 
-    elif text == 'yud test':
+    elif text == 'm test':
 
         message = ImagemapSendMessage(
 
-            base_url='https://i.imgur.com/g8P1V9Q.jpg',
+            base_url='http://s9.picofile.com/file/8339216692/1534026862752.jpg',
 
             alt_text='manyimak corom',
 
@@ -648,7 +651,7 @@ def handle_message(event):
 
                 URIImagemapAction(
 
-                    link_uri='https://line.me/ti/p/%40has6814j',
+                    link_uri='https://line.me/ti/p/7a1gUXPlH7',
 
                     area=ImagemapArea(
 
@@ -679,7 +682,7 @@ def handle_message(event):
 
 #=====[ Sticker MESSAGE ]==========[ ARSYBAI ]======================
 
-    elif (text == 'makasih') or (text == 'Makasih'):
+    elif (text == 'masih') or (text == 'Masih'):
 
         message = TemplateSendMessage(
 
