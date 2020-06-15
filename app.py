@@ -66,7 +66,7 @@ app = Flask(__name__)
 
 # Channel Access Token
 
-line_bot_api = LineBotApi('FCci126AI7N9nj1gabBLl6HKTmvHXeM08gdqIAy+D0ADbuhbZwoPg/13H7DJcLWXOxDYldg1cyc+rWtjU+34p+fDxEN6dFiW/gq6OSGj+6sM228xGHR/IyP0DhuUxoSl9RSL99Qt1Bc2Um8YVkf4xgdB04t89/1O/w1cDnyilFU=')
+line_bot_api = LineBotApi('Wa2jA4F8Bo37/s4Qfq75gf8YvDmD4ulBmPSp7HzOTHPHPcLBFhqf6ex9dq/1sEh9OxDYldg1cyc+rWtjU+34p+fDxEN6dFiW/gq6OSGj+6spkEOZpCAHsM96+2unWdJPslWE8YkWl3S0Rm3GmQYp01GUYhWQfeY8sLGRXgo3xvw=')
 
 # Channel Secret
 
