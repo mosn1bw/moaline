@@ -1,0 +1,24 @@
+{
+  "name": "LineBotTemplate",
+  "description": "Line Bot API template",
+  "repository": "https://github.com/mohsen-bw/Bw",
+  "keywords": ["Line", "python", "static"],
+  "buildpacks": [
+    {
+      "url": "https://github.com/ephoning/heroku-buildpack-python.git"
+    },
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "env": {
+    "ChannelAccessToken": {
+      "description": "Channel Access Token",
+      "required": true
+    },
+    "ChannelSecret": {
+      "description": "Channel Secret",
+      "required": true
+    }
+  }
+}
